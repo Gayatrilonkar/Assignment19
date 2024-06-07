@@ -4,8 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            height: 450px;
+            width: 100%;
+            display: flex;
+            
+            padding: 5px;
+            border-radius: 5px;
+            padding-top: 20px;
+            padding-right: 50px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+        }
+        .Destination{
+            text-align: center;
+            font-size: larger;
+            font-family: cursive;
+            border-radius: 3px;
+
+            background-color: #4D869C;
+            height: 400px;
+            width: 350px;
+            justify-content: space-between;
+            flex-direction: row;
+            border-radius: 10px;
+            border: solid #7AB2B2;
+            margin-top: 20px;
+
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+            padding-top: 10px;
+        }
+        .h3{
+            
+            justify-content: center;
+            font-size: larger;
+            
+        }
+        
+
+
+        
+              @media screen and (min-width: 993px) and (max-width: 1200px) {
+                .container{
+                    justify-content: start;
+                }
+
+              }
+              .Destination{
+                margin-left: 50px;
+
+              }
+                @media screen and (min-width: 769px) and (max-width: 992px) {
+                    .container{
+                    justify-content: start;
+                }
+
+              }
+              .Destination{
+                margin-left: 20px;
+
+              }
+               @media screen and (min-width: 600px) and (max-width: 768px){
+                .container{
+                    justify-content: start;
+                    width: 100%;
+                }
+
+              
+              .Destination{
+                margin-left: 10px 20px;
+                height: 300px;
+                width: 100%;
+
+
+               }
+               .h3{
+            
+            justify-content: center;
+            font-size: larger;
+            
+        }
+        .img{
+            height: 100px;
+            width: 120px;
+            padding-top: 10px;
+        }
+            }
+              
+
+                
+
+
+            
+        
+        
+    
+       
+
+        
+    
+            
+        
+    </style>
 </head>
 <body>
+   <div class="container">
+    <div class="Destination">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS94CXGjf5ZGVoSIr07ugOvsIhIhi09hbtgXQ&s" class="img"><h3 class="h3">Manali</h3>Manali is a town, near Kullu town in Kullu district in the Indian.
+   </div>
+    <div class="Destination">
+        <img src="https://media.istockphoto.com/id/157579910/photo/the-beach.jpg?s=612x612&w=0&k=20&c=aMk67AmzIVD_S1Nibww8ytUdyub2ck3HNQ3uTvuPWPI=" class="img" ><h3 class="h3">Goa</h3>Goa is visited by large numbers of international.
+   </div>
+    <div class="Destination">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXHd0t7EtlhTldVjV64mvy-l7DKen7d7oCQ&s" class="img"><h3 class="h3">Laadakh</h3>Ladakh is a region administered by India as a union territory.
+
+    </div>
+   </div>
     
 </body>
 </html>
